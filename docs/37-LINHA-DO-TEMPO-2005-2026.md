@@ -50,13 +50,7 @@ Para mudar o período no futuro, basta alterar as duas constantes.
 ## Publicação
 
 - Commit `d41758d`: plataforma cultural (registro 36), linha do tempo 2005–2026 e documentação.
-- O push para `bernas0610/VivaSE_Cultura-2.0` foi recusado (HTTP 403, sem permissão de escrita para `andersonsanto09`).
-- Criado o repositório [andersonsanto09/VivaSE_Cultura-2.0](https://github.com/andersonsanto09/VivaSE_Cultura-2.0), com Pages por GitHub Actions. Detalhes e pendências (variável do mapa e origem no MapTiler) no [registro 21](21-PUBLICACAO-GITHUB-PAGES.md).
-- Workflow de publicação: [execução 44899441774](https://github.com/andersonsanto09/VivaSE_Cultura-2.0/actions/runs/44899441774), com build (incluindo `npm test`) e deploy concluídos com sucesso em 21/11/2026.
-
-Verificação no site público (https://andersonsanto09.github.io/VivaSE_Cultura-2.0/), em 21/11/2026:
-
-- Home da plataforma abre na raiz, com as 13 imagens carregadas.
-- `#/historia`: 14 marcos, primeiro ano 2005, nenhum 1972, texto “de 2005 a 2026”.
-- `#/mapa?dia=21`: lista com os 20 espaços funciona. O mapa vetorial mostra “O mapa está em configuração”, porque a variável `VITE_MAPTILER_KEY` ainda não foi cadastrada no novo repositório (pendência 1 do registro 21).
-- Nenhum erro no console nas páginas visitadas.
+- A primeira tentativa de push para `bernas0610/VivaSE_Cultura-2.0` foi recusada (HTTP 403): a conta `andersonsanto09` ainda não tinha permissão de escrita.
+- Enquanto isso, um repositório temporário foi publicado em `andersonsanto09/VivaSE_Cultura-2.0`, a pedido do responsável. O workflow dele passou e o site abriu, mas sem o mapa vetorial, porque a variável `VITE_MAPTILER_KEY` não existia lá.
+- Com a permissão de escrita concedida, os commits foram enviados para `main` do repositório original, como avanço direto a partir de `bf478f5`.
+- O responsável pediu a remoção do repositório temporário.

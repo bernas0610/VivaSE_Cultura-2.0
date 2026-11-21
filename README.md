@@ -1,10 +1,6 @@
 # VivaSE Cultura 2.0
 
-Nova versão do guia cultural e mapa do FASC, planejada para o ideathon de 19 a 21/11/2026.
-
-- Repositório: [andersonsanto09/VivaSE_Cultura-2.0](https://github.com/andersonsanto09/VivaSE_Cultura-2.0), criado em 21/11/2026 com o histórico completo.
-- Site: [andersonsanto09.github.io/VivaSE_Cultura-2.0](https://andersonsanto09.github.io/VivaSE_Cultura-2.0/).
-- Repositório e site anteriores, sem as atualizações de 20–21/11: [bernas0610/VivaSE_Cultura-2.0](https://github.com/bernas0610/VivaSE_Cultura-2.0). [Detalhes da publicação](docs/21-PUBLICACAO-GITHUB-PAGES.md).
+Nova versão do guia cultural e mapa do FASC, planejada para o ideathon de 19 a 21/11/2026. Repositório: [VivaSE_Cultura-2.0](https://github.com/bernas0610/VivaSE_Cultura-2.0). Site: [bernas0610.github.io/VivaSE_Cultura-2.0](https://bernas0610.github.io/VivaSE_Cultura-2.0/).
 
 **Estado atual (21/11/2026):** fases 1 a 4 concluídas no escopo do protótipo. Fase 5 em andamento: qualidade final e pitch de três minutos. Orientação, roteiros, memórias locais, linha do tempo, mapa histórico e acervo de artistas estão implementados e testados. [Fechamento da fase 4](docs/33-FECHAMENTO-FASE-4.md) · [Fase 5](docs/34-FASE-5-QUALIDADE-E-PITCH.md) · [Checklist](docs/13-CHECKLIST-DO-PROJETO.md).
 
@@ -198,6 +194,6 @@ Experiência atual do mapa: [pins individuais, precisão e próximos passos](doc
 
 Direção visual atual: [Cartaz vivo + Atlas cultural e validação](docs/19-DIRECAO-VISUAL-IMPLEMENTADA.md).
 
-Site: [VivaSE Cultura no GitHub Pages](https://andersonsanto09.github.io/VivaSE_Cultura-2.0/). [Configuração da publicação](docs/21-PUBLICACAO-GITHUB-PAGES.md).
+Site: [VivaSE Cultura no GitHub Pages](https://bernas0610.github.io/VivaSE_Cultura-2.0/). [Configuração da publicação](docs/21-PUBLICACAO-GITHUB-PAGES.md).
 
 Revisão visual de 17/11: Home editorial, nove fotografias identificadas de artistas, cartazes tipográficos, miniaturas dos locais e agenda com destaques editoriais. [Registro e verificação](docs/25-REFINAMENTO-VISUAL-E-ACERVO-FOTOGRAFICO.md).

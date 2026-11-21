@@ -163,8 +163,8 @@ Relatório completo: [23 — Mapa histórico e acervo](23-MAPA-HISTORICO-E-ACERV
 - [x] Linha do tempo restrita a 2005–2026 na tela `#/historia`, sem apagar dados do acervo (registro 37).
 - [x] Typecheck e 52 testes de domínio aprovados após os dois ajustes; testes de navegador afetados atualizados.
 - [ ] Executar os testes Playwright atualizados (`phase-3`, `phase-4`, `phase-5`, `art-polish`, `visual-review`) num ambiente com Python e Playwright.
-- [x] Enviar os ajustes ao GitHub e conferir a nova publicação no Pages: push recusado em `bernas0610`; novo repositório `andersonsanto09/VivaSE_Cultura-2.0` criado e publicado (registros 21 e 37).
-- [ ] Cadastrar `VITE_MAPTILER_KEY` no novo repositório e liberar `andersonsanto09.github.io` no MapTiler para o mapa vetorial carregar no site público (registro 21).
+- [x] Enviar os ajustes ao repositório `bernas0610/VivaSE_Cultura-2.0` após a permissão de escrita e conferir a nova publicação no Pages (registros 21 e 37).
+- [ ] Excluir o repositório temporário `andersonsanto09/VivaSE_Cultura-2.0` (registro 37).
 
 Critério de saída: demo repetível, material de apoio, limitações conhecidas e versão de apresentação identificada.
 
