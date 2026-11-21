@@ -52,5 +52,13 @@ Para mudar o período no futuro, basta alterar as duas constantes.
 - Commit `d41758d`: plataforma cultural (registro 36), linha do tempo 2005–2026 e documentação.
 - A primeira tentativa de push para `bernas0610/VivaSE_Cultura-2.0` foi recusada (HTTP 403): a conta `andersonsanto09` ainda não tinha permissão de escrita.
 - Enquanto isso, um repositório temporário foi publicado em `andersonsanto09/VivaSE_Cultura-2.0`, a pedido do responsável. O workflow dele passou e o site abriu, mas sem o mapa vetorial, porque a variável `VITE_MAPTILER_KEY` não existia lá.
-- Com a permissão de escrita concedida, os commits foram enviados para `main` do repositório original, como avanço direto a partir de `bf478f5`.
-- O responsável pediu a remoção do repositório temporário.
+- Com a permissão de escrita concedida, os commits foram enviados para `main` do repositório original, como avanço direto a partir de `bf478f5` (até `f823c98`).
+- Workflow de publicação: [execução 44917032378](https://github.com/bernas0610/VivaSE_Cultura-2.0/actions/runs/44917032378), com build (incluindo `npm test`) e deploy concluídos com sucesso em 21/11/2026.
+- Repositório temporário: o Pages dele foi desativado e o site temporário saiu do ar. A exclusão do repositório ficou com o responsável, porque a credencial do Git neste computador não tem a permissão `delete_repo`.
+
+Verificação no site público (https://bernas0610.github.io/VivaSE_Cultura-2.0/), em 21/11/2026:
+
+- Home da plataforma abre na raiz, com as 13 imagens carregadas.
+- `#/historia`: 14 marcos, primeiro ano 2005, nenhum 1972, texto “de 2005 a 2026”.
+- `#/mapa?dia=21`: mapa vetorial do MapTiler carregado (respostas 200), 20 pins e lista com os 20 espaços.
+- Nenhum erro no console nas páginas visitadas.
